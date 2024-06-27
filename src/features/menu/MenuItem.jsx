@@ -14,7 +14,7 @@ function MenuItem({ pizza }) {
 
   function handleToAddCart() {
     const newItem = {
-      id: id,
+      pizzaId: id,
       name: name,
       quantity: 1,
       unitPrice: unitPrice,

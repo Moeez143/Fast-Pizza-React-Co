@@ -5,7 +5,7 @@ import UpdateItemQuantity from "./UpdateItemQuantity";
 import { getCurrentOrderQuantityById } from "./cartSlice";
 
 function CartItem({ item }) {
-  const { id : pizzaId, name, quantity, totalPrice } = item;
+  const { pizzaId, name, quantity, totalPrice } = item;
 
   const currentQuantity = useSelector(getCurrentOrderQuantityById(pizzaId));
 
