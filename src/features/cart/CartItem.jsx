@@ -2,8 +2,7 @@ import { formatCurrency } from "../../utils/helpers";
 import DeleteItem from "./DeleteItem";
 
 function CartItem({ item }) {
-  // console.log(item);
-  const { pizzaId, name, quantity, totalPrice } = item;
+  const { id : pizzaId, name, quantity, totalPrice } = item;
 
   return (
     <li className="py-3 sm:flex sm:items-center sm:justify-between">
