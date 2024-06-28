@@ -8,9 +8,9 @@ function SearchOrder() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if(!query) return ;
+    if (!query) return;
     navigate(`/order/${query}`);
-    setQuery('');
+    setQuery("");
   }
 
   return (

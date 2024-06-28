@@ -6,7 +6,7 @@ import { deleteItem } from "./cartSlice";
 function DeleteItem({ pizzaId }) {
   const dispatch = useDispatch();
 
-  function handleDeleteItem(pizzaId){
+  function handleDeleteItem(pizzaId) {
     dispatch(deleteItem(pizzaId));
   }
 
