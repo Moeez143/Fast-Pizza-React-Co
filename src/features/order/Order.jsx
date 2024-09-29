@@ -44,7 +44,7 @@ import UpdateOrder from "./UpdateOrder";
 //   ],
 //   position: "-9.000,38.000",
 //   orderPrice: 95,
-//   priorityPrice: 19,
+//   priorityPrice: 18,
 // };
 
 function Order() {
